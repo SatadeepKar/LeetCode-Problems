@@ -16,9 +16,8 @@ public:
         int leftH = height(root->left);
         int rightH = height(root->right);
 
-        if(abs(leftH - rightH)>1){
+        if(abs(leftH - rightH)>1)
             return false;
-        }
         return isBalanced(root->left) && isBalanced(root->right);
     }
 };
