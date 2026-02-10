@@ -12,9 +12,7 @@ public:
                 if(nums[j]%2 ==0){
                     even.insert(nums[j]);
                 }
-                else{
-                    odd.insert(nums[j]);
-                }
+                else odd.insert(nums[j]);
 
                 if(even.size() == odd.size()){
                     maxLen = max(maxLen, j-i+1);
