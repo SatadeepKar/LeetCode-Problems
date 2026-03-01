@@ -9,6 +9,7 @@ public:
                 nums[right] = nums[left];
                 nums[left] = temp;
                 left++;
+                // swap(nums[right], nums[left]);
             }
         }
     }
